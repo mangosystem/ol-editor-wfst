@@ -1,6 +1,6 @@
 # ol_editor
-Openlayers에서 jsts, turfjs 등을 활용한 편집 도구
 
+Openlayers에서 jsts, turfjs 등을 활용한 편집 도구
 
 ### 1. Project 다운로드 및 실행
 
