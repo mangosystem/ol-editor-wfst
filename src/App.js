@@ -1,12 +1,17 @@
-import logo from './logo.svg';
+import { ThemeProvider, unstable_createMuiStrictModeTheme } from '@material-ui/core';
 import './App.css';
-import Container from './map/Container.js';
+import Main from './components/map/main/Main';
 
 function App() {
+
+	const theme = unstable_createMuiStrictModeTheme();
+	
 	return (
-		<div className="App">
-			<Container />
-		</div>
+		<ThemeProvider theme = {theme}>
+			<div className="App">
+				<Main />
+			</div>
+		</ThemeProvider>
 	);
 }
 

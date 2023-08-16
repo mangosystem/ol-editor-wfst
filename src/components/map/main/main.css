@@ -1,0 +1,39 @@
+/* css */
+
+.container{ 
+  position: 'absolute'; bottom: 20; left: '39.5%'; background-color: 'rgba(158, 148, 152, 0.72)'; width: '22%' 
+}
+
+.menu-top-select {
+  margin: 0px 10px !important;
+}
+
+.inputTit {
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+
+.input_data {
+  display: block;
+  float : right;
+}
+
+.info_left {
+  width: 50%;
+  float: left;
+}
+
+.info_right {
+  width: 50%;
+  float: right;
+}
+
+.info_outlineBox { 
+  position: absolute ; 
+  bottom: 5%; 
+  left: 40.8%; 
+  background-color: rgba(158, 148, 152, 0.72); 
+  width: 20%;
+  padding: 10px 25px 25px 15px;
+}
